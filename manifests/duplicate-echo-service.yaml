@@ -1,0 +1,12 @@
+
+---
+apiVersion: getambassador.io/v3alpha1
+kind: Mapping
+metadata:
+  name: duplicate-echo-server
+  namespace: default
+spec:
+  hostname: ''
+  prefix: /backend/
+  service: echo-server.duplicate
+
