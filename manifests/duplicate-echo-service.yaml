@@ -6,7 +6,7 @@ metadata:
   name: duplicate-echo-server
   namespace: default
 spec:
-  hostname: 'magical-ellis-259.edgestack.me'
+  hostname: 'quirky-wiles-2853.edgestack.me'
   prefix: /backend/
   service: echo-server.duplicate
 
